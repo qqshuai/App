@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shape_rect_3" android:state_pressed="true" />
+    <item android:drawable="@drawable/shape_rect" />
+
+
+    <!--
+        系统查找顺序是顺着item从上到下知道找到就停止往下寻找
+        android:state_pressed=["true" | "false"]  按下
+        android:state_focused=["true" | "false"]  焦点
+        android:state_selected=["true" | "false"] 选中
+        android:state_enabled=["true" | "false"]  是否可用
+
+        以下属性不常用
+        android:state_checkable=["true" | "false"]  是否能被check
+        android:state_checked=["true" | "false"] 是否选中
+        android:state_activated=["true" | "false"] 是否被激活
+        android:state_hovered=["true" | "false"] 光标是否悬停
+        android:state_window_focused=["true" | "false"] 当前窗口是否获取焦点
+    -->
+</selector>

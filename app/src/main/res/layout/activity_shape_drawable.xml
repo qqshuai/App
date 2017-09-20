@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_rect"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/shape_rect_2" />
+
+    <!--虚线显示必须关闭硬件加速，并且高度必须大于线条的宽度-->
+    <View
+        android:id="@+id/view"
+        android:layout_width="220dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_line"
+        android:layerType="software" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_oval" />
+
+    <View
+        android:id="@+id/view_ring"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_ring" />
+</LinearLayout>
