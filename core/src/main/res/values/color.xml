@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 中立色 -->
+    <color name="text_important">#222222</color> <!--用于重要的文字信息、内页标题信息-->
+    <color name="text_common">#666666</color> <!--用于普通级段落信息、引导词-->
+    <color name="text_assist">#999999</color> <!--用于辅助、次要的文字信息-->
+    <color name="state_not_enable">#aaaaaa</color> <!--不可点击文字、icon、按钮-->
+    <color name="divider_navigation">#cccccc</color> <!--用于导航栏的分隔线-->
+    <color name="divider_common">#dddddd</color> <!--通用的分隔线-->
+    <color name="bg_common">#f2f2f5</color> <!--大面积背景色、内容模块区域分隔底色-->
+    <color name="bg_text">#fafafb</color> <!--用于文字下小面积背景色-->
+
+    <!-- 其他常用颜色 -->
+    <color name="black">#000000</color> <!--黑色-->
+    <color name="black_light_middle">#b2000000</color> <!--黑色70%透明度-->
+    <color name="black_light_diluted">#33000000</color> <!--黑色20%透明度-->
+    <color name="black_light">#19000000</color> <!--黑色10%透明度-->
+    <color name="black_light_forty">#66000000</color> <!--黑色40%透明度-->
+    <color name="black_light_half">#7f000000</color> <!--黑色50%透明度-->
+    <color name="white">#ffffff</color> <!--白色-->
+    <color name="white_light">#26ffffff</color>
+    <color name="white_half">#7fffffff</color>
+    <color name="white_sixty">#99ffffff</color>
+    <color name="white_seventy">#b2ffffff</color>
+</resources>
